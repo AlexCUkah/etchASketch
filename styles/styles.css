@@ -1,0 +1,30 @@
+#flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Minimum height to ensure centering even if content grows */
+    margin: 0; /* Remove default margin */
+}
+
+
+#gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px; /* Adjust width as needed for 16 columns */
+    height: 320px; /* Adjust height as needed for 16 rows */
+}
+
+
+#resetButton, .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.grid-item {
+    background-color:white;
+    border: 1px solid black;
+    box-sizing: border-box; /* Include border in the element's width and height */
+}
